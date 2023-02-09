@@ -1,30 +1,46 @@
-textarea{height: 50vh;
-  width: 90vw;border-style: inset;border-color: #888888;border-width: 10px}
-html{background-color: #b3d4fc;
+textarea{
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  border-style: inset;
+  border-color: #74A57F;
+  border-width: 10px}
+
+#txtarea{
+  display: flex;
+  justify-content: center;
+}
+html{background-color: #000000;
 }
 
 .title{
   text-align: center;
-  text-shadow: 0.5px 0.5px gray;
+  text-shadow: 1px 0.5px gray;
   font-size: 30px ;
-  font-family: cursive,"Lucida Handwriting";
+  color: #9ECE9A;
+  font-family: 'Permanent Marker', cursive;;
 
 }
 
 .buttons{
   height:100px;
-  width:80vw;
+
   display: flex;
-  flex-flow: row;
+  flex-direction:row ;
+  justify-content: space-around;
   margin:10px ;
 }
 
 button{
   font-size: 15px;
-  height: 25px;width: 200px;
-  margin:25px;
-  border-style: dashed;
-  background-color: lavenderblush;
+  height: 25px;
+  font-family: 'Courgette', cursive;
+  width: 200px;
+  margin:5vh;
+  border:1px solid white;
+  border-radius: 5px;
+  background-color: deepskyblue;
 }
 
 
